@@ -26,4 +26,4 @@ $ python -m SimpleHTTPServer 8080
 Serving HTTP on 0.0.0.0 port 8080 ...
 ```
 
-Now you can browse to http://localhost:8080/ to view the page.
+Now you can browse to [http://localhost:8080/](http://localhost:8080/) to view the page.
