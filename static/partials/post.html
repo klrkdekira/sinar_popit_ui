@@ -16,7 +16,35 @@
     <div class="col-xs-12">
       <div class="box">
         <div class="box-body">
-          banana banana banana
+          <form id="postForm" class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="label">Label</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="text" id="label"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="role">Role</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="text" id="role"/>
+              </div>
+            </div>
+            <!-- TODO: Add widget for select organizations -->
+            <!-- TODO: Add widget for adding area -->
+            <!-- example of data https://sinar-malaysia.popit.mysociety.org/api/v0.1/posts/5365e33a19ee29270d8a9f34 -->
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="start_date">Start Date</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="text" id="start_date"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="end_date">End Date</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="text" id="end_date"/>
+              </div>
+            </div>
+          </form>
         </div><!-- /.box-body -->
       </div><!-- /.box -->
     </div><!-- /.col -->
